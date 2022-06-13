@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: Vazirmatn;
+    src: url('./fonts/Vazirmatn-Medium.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+body{
+    background-color: #F6F6F6 ;
+}
+span,h1,h2,h3,input,a{
+    font-family: 'Vazirmatn';
+}
+#sidebar{
+    background-color: #FFFFFF;
+    height: 100vw;
+}
+#myirancell{
+    background-color: #fdc816;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight:bolder;
+}
+#sidebar ul li a{
+    color: #818181;
+}
+#sidebar ul .active{
+background-color: #FFFFFF;
+border-left: 5px #fdc816 solid;
+}
+#sidebar ul .active svg{
+    
+    color:  #fdc816 ;
+    }
+#sidebar ul p{
+    color: #F6F6F6;
+    margin: 20px;
+}
+#sidebar ul{
+    margin-left: -60px;
+}
